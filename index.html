@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Challenge 20 Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+
+  .header-img {
+    width:100%;
+
+  }
+
+  #flyingCorgi {
+    padding: 0;
+  }
+
+  .text-block {
+    position:absolute;
+    background-color: lightsteelblue;
+    color:dimgray;
+    top: 0px;
+    left: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .colorBackground {
+    position: absolute;
+    background-color: lightsteelblue;
+    width:100%;
+    height: 370px;
+  }
+
+  .bigSection-img {
+    border-radius: 50px;
+    width: 500px;
+    float:left;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }  
+
+  .smallSection-img {
+    border-radius: 50px;
+    width: 400px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float:right;
+  }
+  .bigSection-textblock {
+    position: absolute;
+    color: #2e2d2d;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .smallSection-textblock {
+    position: absolute;
+    color:#2e2d2d;
+    text-align: right;
+    padding-left: 300px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .sideBackground {
+    position:absolute;
+    width: 500px;
+    height: 700px;
+    background-color: lightsteelblue;
+    top: 2150px;
+    left: 0px;
+  }
+  .form-control {
+    border-color: orange;
+  }
+  .btn {
+    width:1113px;
+  }
+
+  .bottomBackground {
+    position: absolute;
+    background-color: lightsteelblue;
+    width: 700px;
+    height: 230px;
+    left: 30%;
+  }
+  </style> 
+</head>
+<body>
+
+<div id="flyingCorgi" class="jumbotron text-center" style="margin-bottom:0">
+ 
+  <div class="text-block">
+    <h1>PEMBROKE</h1>
+    <h1>WELSH CORGI</h1>
+  </div>
+  <img src="images/flyingcorgi1.png" alt="Flying Corgi" class="header-img"> 
+<div class="colorBackground">
+    <br>
+    <br>
+    <br>
+</div>
+
+</div>
+
+
+<br>
+<br>
+<br>
+
+<div class="container" style="margin-top:30px">
+  <div class="row text-left">
+    <div class="col">
+      <img src="images/anatomy.jpg" alt="Toasts" class="bigSection-img">
+    </div>
+    <div class="col">
+      <div class="bigSection-textblock">
+        <br>
+        <h1>________</h1>
+        <br>
+        <p></p>
+        <h1>ANATOMY</h1>
+        <p>Short legs</p>
+        <p>Fox-like face</p>
+        <p>Pointed ears</p>
+        <p>Color: Fawn, Black & Tan, Black & White, Red, Sable</p>
+        <br>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container" style="margin-top:30px">
+  <div class="row text-left">
+    
+    <div class="col">
+      <div class="smallSection-textblock">
+        <br>
+        <h1>TEMPERAMENT</h1>
+        <h1>________</h1>
+        <p>Playful</p>
+        <p>Stubborn</p>
+        <p>Protective</p>
+        <p>Herding Instinct</p>
+        <br>
+      </div>
+      <div class="col">
+        <img src="images/temperament.jpg" alt="disapproving corgi" class="smallSection-img">
+      </div>
+    </div> 
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="sideBackground">
+  <br>
+  <br>
+  <br>
+</div>
+
+<div class="container" style="margin-top:30px">
+  <div class="row text-left">
+    <div class="col">
+      <img src="images/health.webp" alt="Sploots" class="bigSection-img">
+    </div>
+    <div class="col">
+      <div class="bigSection-textblock">
+        <br>
+        <h1>________</h1>
+        <br>
+        <p></p>
+        <h1>HEALTH</h1>
+        <p>Hip Dysplasia</p>
+        <p>Lens Luxation</p>
+        <p>Degenerative Myelopathy</p>
+        <p>Intervertebral Disk Disease</p>
+        <br>
+      </div>
+    </div> 
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container" style="margin-top:30px">
+  <div class="row text-left">
+    
+    <div class="col">
+      <div class="smallSection-textblock">
+        <br>
+        <h1>HISTORY</h1>
+        <h1>________</h1>
+        <p>Country of Origin: Welsh, UK</p>
+        <p>Established: 11th Century</p>
+        <p>Usage: Cattle Herding</p>
+        <p>Similar Breed: Cardigan Welsh Corgi</p>
+        <br>
+      </div>
+      <div class="col">
+        <img src="images/history.jpg" alt="corgi hearts" class="smallSection-img">
+      </div>
+    </div> 
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="bottomBackground">
+  <br>
+  <br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="name" placeholder="NAME" name="NAME">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="EMAIL" name="EMAL">
+      </div>
+    </div>
+    <br>
+    <br>
+    <button type="submit" class="btn btn-dark btn-lg">SUBSCRIBE</button>
+  </form>
+</div>
+
+<div class="bottomBackground">
+  <br>
+  <br>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<nav class="navbar navbar-expand-sm bg-secondary navbar-dark">
+  
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">ABOUT | </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CONTACT |  </a>
+      </li>
+    </ul>
+  </div>  
+  <a class="navbar-brand" href="#">PEMBROKE WELSH CORGI</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+</body>
+</html>
